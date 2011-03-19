@@ -1,0 +1,4 @@
+*.o
+*~
+sigextract
+sigextract_nogui
