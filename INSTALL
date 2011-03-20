@@ -1,0 +1,22 @@
+Pre-requisites
+==============
+1. GNU Make utility (optional)
+2. gcc compiler (required)
+3. GTK-2.0 library [libgtk2.0-dev] (required)
+4. FFMPEG library [libavcodec-dev, libavformat-dev, libswscale-dev] (required)
+5. Glade Interface Designer (optional)
+
+Installation (on Ubuntu)
+========================
+1. Install GTK-2.0 library
+    `sudo apt-get install libgtk2.0-dev`
+2. Install FFMPEG library
+    `sudo apt-get install libavcodec-dev libavformat-dev libswscale`
+3. `cd` into project directory
+4. Run `make clean` to remove any binaries if present
+5. Run `make` to create new platform-dependant binaries
+6. Execute `./sigextract` for the GUI version and `./sigextract_nogui` for the CUI version of the software
+
+Installation (on Windows)
+=========================
+<Yet to figure out>
